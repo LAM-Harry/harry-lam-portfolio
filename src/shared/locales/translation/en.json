@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "badge": "Computer Science Student",
+    "name": "Hoang Anh",
+    "surname": "Harry LAM",
+    "description": "I am about to complete my Bachelor's degree in Computer Science at IUT de Créteil-Vitry (Université Paris-Est Créteil). Motivated and curious, I design technical projects and aim to progress in the field of AI.",
+    "contact": "Contact me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "download": "Download my CV",
+    "viewProjects": "View my projects"
+  },
+  "sections": {
+    "experience": "Experience",
+    "projects": "Academic Projects",
+    "skills": "Tech Stack",
+    "methodologies": "Project Management Methods",
+    "supports": "IT Tools",
+    "formation": "Education",
+    "lqh": "Languages, Qualities & Interests",
+    "allProjects": "All my projects"
+  },
+  "stats": {
+    "internships": {
+      "value": "2",
+      "label": "Internships"
+    },
+    "formation": {
+      "value": "Bachelor",
+      "label": "Education"
+    },
+    "technologies": {
+      "value": "28",
+      "label": "Technologies"
+    }
+  },
+  "dates": {
+    "aife": "March — June 2026",
+    "kaist": "April — June 2025",
+    "medical": "Sep 2025 — June 2026",
+    "weather": "Sep 2024 — April 2025"
+  },
+  "experience": {
+    "aife": {
+      "title": "Fullstack Developer Intern — Design System Industrialization",
+      "org": "AIFE · French Government Financial Information Systems Agency",
+      "description": "Development and industrialization of an Angular/TypeScript component library for the French government with RGAA compliance. Implementation of a Figma plugin for token export and management. Fullstack contribution to the ASTRA project and POCs to validate component adaptability."
+    },
+    "kaist": {
+      "title": "Developer Intern — Exoskeleton Interface",
+      "org": "KAIST · Korea Advanced Institute of Science & Technology · South Korea",
+      "description": "Design of a graphical interface with PyQt5 for real-time visualization of physiological data (pMMG, EMG, IMU). Development of a deep learning pipeline with TensorFlow/Keras (RNN, GRU, LSTM, Transformer)."
+    }
+  },
+  "projects": {
+    "medical": {
+      "title": "No-code Medical Platform",
+      "org": "Academic Project — DevOps",
+      "description": "No-code medical web platform with React (TypeScript) and Java (Gradle) for dynamic medical workflows. Firebase security and deployment with Node.js."
+    },
+    "weather": {
+      "title": "Interactive Weather App",
+      "org": "Academic Project - Applicative Dev",
+      "description": "Web application in PHP and JavaScript using the SYNOP API to analyze weather conditions. Data management with PhpMyAdmin and MySQL."
+    }
+  },
+  "categories": {
+    "Langages": "Languages",
+    "Frameworks": "Frameworks",
+    "Bases de données": "Databases",
+    "IA & Deep/Machine Learning": "AI & Deep/Machine Learning",
+    "DevOps & Infrastructure": "DevOps & Infrastructure",
+    "Systèmes & Réseaux": "Systems & Networks"
+  },
+  "skills": {
+    "langageC": "C / C# Languages"
+  },
+  "methodologies": {
+    "scrum": "Scrum",
+    "kanban": "Kanban",
+    "scrumBadge": "SPRINTS",
+    "kanbanBadge": "FLOW"
+  },
+  "supports": {
+    "ide": "IDE",
+    "databases": "Databases",
+    "virtualization": "Virtualization & Containers",
+    "versioning": "Version Control"
+  },
+  "formation": {
+    "but": {
+      "degree": "Bachelor's Degree in Computer Science",
+      "subtitle": "Application Development: Design, Development, Validation",
+      "school": "University Institute of Technology of Créteil-Vitry - University of Paris-Est Créteil",
+      "mention": "With Honors"
+    },
+    "bac": {
+      "degree": "General Baccalaureate",
+      "subtitle": "Mathematics / Computer Science",
+      "school": "Marguerite Duras French International High School",
+      "mention": "With Honors"
+    }
+  },
+  "locations": {
+    "but": "Vitry-sur-Seine, France",
+    "bac": "Ho Chi Minh City, Vietnam"
+  },
+  "lqh": {
+    "languages": "Languages",
+    "qualities": "Qualities",
+    "hobbies": "Interests",
+    "french": "French",
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "spanish": "Spanish",
+    "native": "Native",
+    "levelB2": "B2 — Intermediate",
+    "levelA2": "A2+ — School level",
+    "qualitiesList": [
+      "Teamwork",
+      "Diligent",
+      "Determined",
+      "Curious",
+      "Rigorous"
+    ],
+    "hobbiesList": [
+      "Football",
+      "Travels",
+      "Video games"
+    ]
+  },
+  "projectCard": {
+    "features": "Features",
+    "techDetails": "Technical Details",
+    "partner": "Partner",
+    "partnerLogoAlt": "Partner logo",
+    "github": "View source code on GitHub",
+    "prevImage": "Previous image",
+    "nextImage": "Next image"
+  },
+  "projectPage": {
+    "projectCount_one": "{{count}} project",
+    "projectCount_other": "{{count}} projects",
+    "empty": "No projects in this category."
+  },
+  "copyright": "© {{year}} Hoang Anh Harry LAM. All rights reserved.",
+  "projectsDetail": {
+    "game-of-life": {
+      "title": "Game of Life - Multithreaded Simulation",
+      "org": "Academic Project — Advanced Programming",
+      "date": "December 2025",
+      "description": "Interactive simulation of Conway's Game of Life with a modern graphical interface and parallelized computations via multi-threading.",
+      "longDescription": "Cellular automaton conceived by John Conway in 1970. Each cell has its own thread for parallel computations, synchronized via a barrier (threading.Barrier). The grid is configurable from 5×5 to 80×80 cells (up to 6,400 simultaneous threads), with a 30 FPS refresh rate and a simulation speed of 1 to 30 generations/second.",
+      "features": [
+        "High-performance multi-threading: one thread per cell, up to 6,400 simultaneous threads",
+        "Barrier synchronization: no thread starts generation N+1 before all have finished N",
+        "Full history of the last 100 generations (Undo/Redo)",
+        "4 predefined themes (Dark, Neon, Ocean, Sunset) + custom theme creator",
+        "Integrated interactive tutorial: 12 pages with classic patterns (Block, Blinker, Glider)",
+        "Automatic session saving on close with optional resume on restart",
+        "Real-time controls: Play/Pause, step-by-step (+1 Gen), variable speed (1–30 gen/s)",
+        "Direct interaction: click to toggle a cell, click + drag to draw continuously"
+      ],
+      "techDetails": [
+        "Double buffering: T (n+2)×(n+2) and Tnext grids to avoid read/write conflicts",
+        "Control events: running, stop_event, step_event, redraw_event",
+        "Modular architecture: 6 separate files (gamelife_core, gui_game, gui_windows, gui_components, history_manager, theme_manager)",
+        "4 auto-generated JSON files: gamelife_config, custom_themes, favorite_colors, gamelife_history",
+        "Patterns: Observer (UI events), Singleton (global configuration)",
+        "Optional Pillow (PIL) for improved color picker performance"
+      ]
+    },
+    "exoskeleton-deep-learning-interface": {
+      "title": "Deep Learning Interface for Exoskeleton",
+      "org": "KAIST · Korea Advanced Institute of Science & Technology",
+      "date": "April — June 2025",
+      "description": "Design of a fullstack graphical interface for designing, training, and evaluating Deep Learning models applied to human motion analysis for exoskeleton control.",
+      "longDescription": "As part of my internship at the Exo Lab at KAIST (South Korea), I developed a Python application to create and train neural networks for the analysis of biomechanical data (EMG, IMU) used in exoskeleton control. The tool offers a complete pipeline: dataset generation, model configuration (LSTM, GRU, RNN, Transformer), training with real-time monitoring, performance evaluation and model comparison. Project carried out in collaboration with Thanh Uyen NGUYEN.",
+      "features": [
+        "Dynamic model building: LSTM, GRU, RNN, Transformer and TinyTransformer",
+        "Asynchronous multithreaded training with reactive interface and real-time monitoring",
+        "Comprehensive evaluation: confusion matrices, prediction vs ground truth curves, scatter plots",
+        "Built-in optimizations: EarlyStopping, ReduceLROnPlateau, class_weight",
+        "Support for multi-class classification and regression tasks",
+        "Save and load models in HDF5 format",
+        "Side-by-side model comparison",
+        "EMG/IMU signal preprocessing, sliding windows, normalization"
+      ],
+      "techDetails": [
+        "Fullstack Python architecture: TensorFlow/Keras backend, PyQt5 frontend",
+        "Asynchronous management with QThread and custom callbacks",
+        "Dynamic model building with build_flexible_model",
+        "Data pipeline: HDF5 file loading, EMG signal filtering, automatic label generation",
+        "Design patterns: MVC, centralized state management, observers (PyQt signals)",
+        "Strict modularity: training_core/, windows/, utils/",
+        "Bidirectionality of RNN layers, attention mechanisms (Transformer), temporal windowing"
+      ]
+    },
+    "olga-workflow-platform": {
+      "title": "OLGA · No-code Workflow Platform",
+      "org": "Academic Project — DevOps & Architecture",
+      "date": "Sep 2025 — June 2026",
+      "description": "No-code workflow management platform orchestrated by a Spring Boot/Java engine, with three React frontends (Designer, Admin, Business) and a hybrid MySQL/Firebase architecture. Dynamic form generation with Zod validation.",
+      "longDescription": "As part of an end-of-degree academic project in the BUT Computer Science program, I contributed to the development of OLGA, a no-code workflow management platform. Architecture: Spring Boot/Java engine, React/TypeScript frontends (Designer, Admin, Business), hybrid MySQL/Firebase persistence, dynamic forms with Zod validation. Docker containerization, one-command deployment. Project carried out in collaboration with LISSI and tested on medical, logistics, and field management scenarios.",
+      "features": [
+        "No-code workflow design via visual interface (Designer)",
+        "Dynamic form generation with Zod validation",
+        "Multi-step process orchestration with conditional transitions",
+        "Hybrid MySQL/Firebase architecture: structured persistence + real-time",
+        "Docker containerization with Docker Compose (5 services)",
+        "Three React frontends: Designer (8080), Admin (8081), Business",
+        "Push notifications and real-time synchronization via Firebase",
+        "One-command deployment: docker compose up -d --build"
+      ],
+      "techDetails": [
+        "Frontend: React 18, TypeScript, Vite, Zod, Axios, Firebase SDK",
+        "Backend: Java 17, Spring Boot, REST API, JPA/Hibernate",
+        "Database: MySQL 8 (persistence), Firebase Firestore (real-time)",
+        "Containerization: Docker, Docker Compose, Nginx for SPAs",
+        "Services: Designer (8080), Admin (8081), API (9091), MySQL (3306), phpMyAdmin (81)",
+        "Reusable React form interpreter (FormInterpreter)",
+        "Infrastructure deployable on any Linux server"
+      ]
+    }
+  },
+  "categoriesDetail": {
+    "leisureGaming": {
+      "title": "Leisure & Gaming",
+      "description": "Personal projects related to video games and recreational programming."
+    },
+    "deeplearning": {
+      "title": "Deep Learning & AI",
+      "description": "Research projects in artificial intelligence and deep learning."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "description": "Infrastructure, continuous deployment, and automation projects."
+    }
+  }
+}

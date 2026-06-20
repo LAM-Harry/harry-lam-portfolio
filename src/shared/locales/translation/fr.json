@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "badge": "Étudiant Informatique",
+    "name": "Hoang Anh",
+    "surname": "Harry LAM",
+    "description": "Je termine bientôt mon BUT Informatique à l'IUT de Créteil-Vitry (Université Paris-Est Créteil). Motivé et curieux, je conçois des projets techniques et je cherche à progresser dans le domaine de l'IA.",
+    "contact": "Me contacter",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "download": "Télécharger mon CV",
+    "viewProjects": "Voir mes projets"
+  },
+  "sections": {
+    "experience": "Expérience",
+    "projects": "Projets académiques",
+    "skills": "Stack technique",
+    "methodologies": "Méthodes de gestion de projet",
+    "supports": "Supports informatiques",
+    "formation": "Formation",
+    "lqh": "Langues, Qualités & Centres d'intérêt",
+    "allProjects": "Tous mes projets"
+  },
+  "stats": {
+    "internships": {
+      "value": "2",
+      "label": "Stages effectués"
+    },
+    "formation": {
+      "value": "BAC+3",
+      "label": "Formation"
+    },
+    "technologies": {
+      "value": "28",
+      "label": "Technologies"
+    }
+  },
+  "dates": {
+    "aife": "Mars — Juin 2026",
+    "kaist": "Avril — Juin 2025",
+    "medical": "Sept 2025 — Juin 2026",
+    "weather": "Sept 2024 — Avril 2025"
+  },
+  "experience": {
+    "aife": {
+      "title": "Stagiaire Développeur Fullstack — Industrialisation du Design System",
+      "org": "AIFE · Agence pour l'Informatique Financière de l'État · Ministère des Comptes Publics",
+      "description": "Développement et industrialisation d'une librairie de composants Angular/TypeScript pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement fullstack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
+    },
+    "kaist": {
+      "title": "Stagiaire Développeur — Interface exosquelette",
+      "org": "KAIST · Korea Advanced Institute of Science & Technology · Corée du Sud",
+      "description": "Conception d'une interface graphique développée avec la bibliothèque PyQt5 pour visualiser en temps réel les données physiologiques (pMMG, EMG, IMU) dans le cadre du contrôle d'un exosquelette. Développement d'un pipeline de deep learning avec TensorFlow/Keras (RNN, GRU, LSTM, Transformer) pour des tâches de classification et de régression."
+    }
+  },
+  "projects": {
+    "medical": {
+      "title": "Plateforme no-code médicale",
+      "org": "Projet académique — DevOps",
+      "description": "Plateforme web no-code médicale en React (TypeScript) et Java (Gradle) pour workflows médicaux avec formulaires dynamiques. Sécurité Firebase et déploiement avec Node.js (npm)."
+    },
+    "weather": {
+      "title": "Application météo interactive",
+      "org": "Projet académique - Dév. Applicatif",
+      "description": "Application web en PHP et JavaScript exploitant l'API SYNOP pour analyser les conditions climatiques. Gestion des données des stations météorologiques via PhpMyAdmin et MySQL."
+    }
+  },
+  "categories": {
+    "Langages": "Langages",
+    "Frameworks": "Frameworks",
+    "Bases de données": "Bases de données",
+    "IA & Deep/Machine Learning": "IA & Deep/Machine Learning",
+    "DevOps & Infrastructure": "DevOps & Infrastructure",
+    "Systèmes & Réseaux": "Systèmes & Réseaux"
+  },
+  "skills": {
+    "langageC": "Langages C / C#"
+  },
+  "methodologies": {
+    "scrum": "Scrum",
+    "kanban": "Kanban",
+    "scrumBadge": "SPRINTS",
+    "kanbanBadge": "FLUX"
+  },
+  "supports": {
+    "ide": "IDE",
+    "databases": "Bases de données",
+    "virtualization": "Machines virtuelles & Conteneurs",
+    "versioning": "Gestion de version"
+  },
+  "formation": {
+    "but": {
+      "degree": "BUT Informatique",
+      "subtitle": "Réalisation d'applications : conception, développement, validation",
+      "school": "IUT de Créteil-Vitry · Université Paris-Est Créteil",
+      "mention": "Mention Assez Bien"
+    },
+    "bac": {
+      "degree": "Baccalauréat Série Général",
+      "subtitle": "Maths / NSI",
+      "school": "Lycée français international Marguerite Duras",
+      "mention": "Mention Assez Bien"
+    }
+  },
+  "locations": {
+    "but": "Vitry-sur-Seine, 94",
+    "bac": "Hô Chi Minh-Ville, Vietnam"
+  },
+  "lqh": {
+    "languages": "Langues",
+    "qualities": "Qualités",
+    "hobbies": "Centres d'intérêt",
+    "french": "Français",
+    "vietnamese": "Vietnamien",
+    "english": "Anglais",
+    "spanish": "Espagnol",
+    "native": "Langue maternelle",
+    "levelB2": "B2 — Intermédiaire",
+    "levelA2": "A2+ — Scolaire",
+    "qualitiesList": [
+      "Travail en équipe",
+      "Assidu",
+      "Déterminé",
+      "Curieux",
+      "Rigoureux"
+    ],
+    "hobbiesList": [
+      "Football",
+      "Voyages",
+      "Jeux vidéo"
+    ]
+  },
+  "projectCard": {
+    "features": "Fonctionnalités",
+    "techDetails": "Détails techniques",
+    "partner": "Partenaire",
+    "partnerLogoAlt": "Logo partenaire",
+    "github": "Voir le code source sur GitHub",
+    "prevImage": "Image précédente",
+    "nextImage": "Image suivante"
+  },
+  "projectPage": {
+    "projectCount_one": "{{count}} projet",
+    "projectCount_other": "{{count}} projets",
+    "empty": "Aucun projet dans cette catégorie."
+  },
+  "copyright": "© {{year}} Hoang Anh Harry LAM. Tous droits réservés.",
+  "projectsDetail": {
+    "game-of-life": {
+      "title": "Jeu de la Vie - Simulation multithread",
+      "org": "Projet académique — Programmation avancée",
+      "date": "Décembre 2025",
+      "description": "Simulation interactive du Jeu de la Vie de Conway avec interface graphique moderne et calculs parallélisés via multi-threading.",
+      "longDescription": "Automate cellulaire imaginé par John Conway en 1970. Chaque cellule possède son propre thread pour des calculs parallèles, synchronisés via une barrière (threading.Barrier). La grille est configurable de 5×5 à 80×80 cellules (jusqu'à 6 400 threads simultanés), avec un rafraîchissement à 30 FPS et une vitesse de simulation de 1 à 30 générations/seconde.",
+      "features": [
+        "Multi-threading haute performance : un thread par cellule, jusqu'à 6 400 threads simultanés",
+        "Synchronisation par barrière : aucun thread ne commence la génération N+1 avant que tous aient fini N",
+        "Historique complet des 100 dernières générations (Undo/Redo)",
+        "4 thèmes prédéfinis (Dark, Neon, Ocean, Sunset) + créateur de thèmes personnalisés",
+        "Tutoriel interactif intégré : 12 pages avec patterns classiques (Block, Blinker, Glider)",
+        "Sauvegarde automatique de session à chaque fermeture avec reprise possible au redémarrage",
+        "Contrôles en temps réel : Play/Pause, pas à pas (+1 Gen), vitesse variable (1–30 gen/s)",
+        "Interaction directe : clic pour inverser une cellule, clic + glissement pour dessiner en continu"
+      ],
+      "techDetails": [
+        "Double buffering : grilles T (n+2)×(n+2) et Tnext pour éviter les conflits de lecture/écriture",
+        "Événements de contrôle : running, stop_event, step_event, redraw_event",
+        "Architecture modulaire : 6 fichiers séparés (gamelife_core, gui_game, gui_windows, gui_components, history_manager, theme_manager)",
+        "4 fichiers JSON auto-générés : gamelife_config, custom_themes, favorite_colors, gamelife_history",
+        "Patterns : Observer (événements UI), Singleton (configuration globale)",
+        "Pillow (PIL) optionnel pour améliorer les performances du sélecteur de couleurs"
+      ]
+    },
+    "exoskeleton-deep-learning-interface": {
+      "title": "Interface Deep Learning pour Exosquelette",
+      "org": "KAIST · Korea Advanced Institute of Science & Technology",
+      "date": "Avril — Juin 2025",
+      "description": "Conception d'une interface graphique fullstack pour la conception, l'entraînement et l'évaluation de modèles de Deep Learning appliqués à l'analyse de mouvements humains pour le contrôle d'exosquelettes.",
+      "longDescription": "Dans le cadre de mon stage au laboratoire Exo Lab du KAIST (Corée du Sud), j'ai développé une application Python permettant de créer et d'entraîner des réseaux de neurones pour l'analyse de données biomécaniques (EMG, IMU) utilisées dans le contrôle d'exosquelettes. L'outil propose un pipeline complet : génération du dataset, configuration des modèles (LSTM, GRU, RNN, Transformer), entraînement avec suivi en temps réel, évaluation des performances et comparaison des modèles entraînés. Projet réalisé en collaboration avec Thanh Uyen NGUYEN",
+      "features": [
+        "Construction dynamique de modèles : LSTM, GRU, RNN, Transformer et TinyTransformer",
+        "Entraînement asynchrone multithreadé avec interface réactive et suivi en temps réel",
+        "Évaluation complète : matrices de confusion, courbes prédiction vs vérité terrain, nuages de points",
+        "Optimisations intégrées : EarlyStopping, ReduceLROnPlateau, class_weight",
+        "Support des tâches de classification multi-classe et régression",
+        "Sauvegarde et chargement des modèles au format HDF5",
+        "Comparaison de modèles côte à côte",
+        "Prétraitement des signaux EMG/IMU, fenêtrage glissant (sliding windows), normalisation"
+      ],
+      "techDetails": [
+        "Architecture fullstack Python : Backend TensorFlow/Keras, Frontend PyQt5",
+        "Gestion asynchrone avec QThread et callbacks personnalisés",
+        "Construction dynamique de modèles avec build_flexible_model",
+        "Pipeline de données : Chargement de fichiers HDF5, filtrage des signaux EMG, génération automatique de labels",
+        "Patterns de conception : MVC, gestion d'état centralisée, observateurs (signaux PyQt)",
+        "Modularité stricte : training_core/, windows/, utils/",
+        "Bidirectionnalité des couches RNN, mécanismes d'attention (Transformer), fenêtrage temporel"
+      ]
+    },
+    "olga-workflow-platform": {
+      "title": "OLGA · Plateforme de workflow no-code",
+      "org": "Projet académique — DevOps & Architecture",
+      "date": "Sept 2025 — Juin 2026",
+      "description": "Plateforme no-code de gestion de workflows orchestrée par un moteur Spring Boot/Java, avec trois frontends React (Designer, Admin, Métier) et une architecture hybride MySQL/Firebase. Génération dynamique de formulaires avec validation Zod.",
+      "longDescription": "Dans le cadre d'un projet académique en fin d'étude du BUT Informatique, j'ai contribué au développement d'OLGA, une plateforme no-code de gestion de workflows. Architecture : moteur Spring Boot/Java, frontends React/TypeScript (Designer, Admin, Métier), persistance hybride MySQL/Firebase, formulaires dynamiques avec validation Zod. Conteneurisation Docker, déploiement en une commande. Projet réalisé en collaboration avec le LISSI et testé sur des scénarios médicaux, logistiques et de gestion de terrain.",
+      "features": [
+        "Conception no-code de workflows via interface visuelle (Designer)",
+        "Génération dynamique de formulaires avec validation Zod",
+        "Orchestration de processus multi-étapes avec transitions conditionnelles",
+        "Architecture hybride MySQL/Firebase : persistance structurée + temps réel",
+        "Conteneurisation Docker avec Docker Compose (5 services)",
+        "Trois frontends React : Designer (8080), Admin (8081), Métier",
+        "Notifications push et synchronisation en temps réel via Firebase",
+        "Déploiement en une commande : docker compose up -d --build"
+      ],
+      "techDetails": [
+        "Frontend : React 18, TypeScript, Vite, Zod, Axios, Firebase SDK",
+        "Backend : Java 17, Spring Boot, API REST, JPA/Hibernate",
+        "Base de données : MySQL 8 (persistance), Firebase Firestore (temps réel)",
+        "Conteneurisation : Docker, Docker Compose, Nginx pour les SPA",
+        "Services : Designer (8080), Admin (8081), API (9091), MySQL (3306), phpMyAdmin (81)",
+        "Interpréteur de formulaires React réutilisable (FormInterpreter)",
+        "Infrastructure déployable sur n'importe quel serveur Linux"
+      ]
+    }
+  },
+  "categoriesDetail": {
+    "leisureGaming": {
+      "title": "Loisir & Jeux vidéo",
+      "description": "Projets personnels liés aux jeux vidéo et à la programmation ludique."
+    },
+    "deeplearning": {
+      "title": "Deep Learning & IA",
+      "description": "Projets de recherche en intelligence artificielle et apprentissage profond."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "description": "Projets d'infrastructure, déploiement continu et automatisation."
+    }
+  }
+}

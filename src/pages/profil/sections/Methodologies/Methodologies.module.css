@@ -1,0 +1,109 @@
+/* Grille responsive pour les cartes */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+/* Carte méthode agile */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+  min-height: 100px;
+}
+
+/* Barre verte fluo sur le côté gauche */
+.card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 0 2px 2px 0;
+}
+
+/* Animation au survol */
+.card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+/* Conteneur de l'icône */
+.iconWrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(0, 255, 135, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  flex-shrink: 0;
+  background: rgba(0, 255, 135, 0.04);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.card:hover .iconWrapper {
+  background: rgba(0, 255, 135, 0.08);
+  border-color: rgba(0, 255, 135, 0.25);
+}
+
+/* SVG à l'intérieur de l'icône */
+.iconWrapper svg {
+  width: 36px;
+  height: 36px;
+}
+
+/* Nom de la méthode */
+.name {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+/* Badge sous le nom (SPRINTS / FLUX) */
+.badge {
+  display: block;
+  font-size: 9px;
+  color: var(--accent);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 3px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+/* Responsive mobile */
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    min-height: 80px;
+    padding: 1.25rem;
+  }
+  
+  .iconWrapper {
+    width: 54px;
+    height: 54px;
+  }
+  
+  .iconWrapper svg {
+    width: 30px;
+    height: 30px;
+  }
+}

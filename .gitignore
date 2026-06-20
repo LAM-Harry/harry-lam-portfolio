@@ -1,0 +1,40 @@
+# Créer le fichier .gitignore avec du contenu
+@"
+# Dépendances
+node_modules/
+.pnpm-store/
+.yarn/
+
+# Build
+dist/
+build/
+out/
+
+# Fichiers de cache
+.vite/
+.cache/
+.parcel-cache/
+
+# Environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+"@ | Out-File -FilePath .gitignore -Encoding utf8

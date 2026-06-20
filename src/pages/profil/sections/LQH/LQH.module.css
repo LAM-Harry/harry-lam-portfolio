@@ -1,0 +1,118 @@
+/* Grille principale : 2 colonnes pour Langues et Qualités */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Titres des sous-sections */
+.blockTitle {
+  font-size: 9px;
+  color: var(--text-muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+/* Langues - affichage en lignes */
+.langRow {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.langItem {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.6rem 1rem;
+}
+
+.langName {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.langLevel {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Centres d'intérêt - prend toute la largeur */
+.fullWidth {
+  grid-column: 1 / -1;
+  margin-top: 0.5rem;
+}
+
+.hobbyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+/* Cartes de centres d'intérêt avec barre verte fluo*/
+.hobbyCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+  min-height: 50px;
+}
+
+/* Barre verte fluo sur le côté gauche */
+.hobbyCard::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 0 2px 2px 0;
+}
+
+/* Animation au survol */
+.hobbyCard:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+/* Icône verte fluo */
+.hobbyIcon {
+  color: var(--accent);  
+  flex-shrink: 0;
+}
+
+.hobbyName {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* Responsive mobile : 1 colonne, hobbies en 2 colonnes */
+@media (max-width: 640px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hobbyGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,68 @@
+/* Grille responsive pour les supports */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+/* Carte de support */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+/* Nom de la catégorie */
+.category {
+  font-size: 9px;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+/* Liste des outils */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Élément de la liste */
+.item {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 0.25rem 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Puce verte fluo */
+.bullet {
+  color: var(--accent);
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+/* Responsive tablette : 2 colonnes */
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Responsive mobile : 1 colonne */
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

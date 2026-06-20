@@ -1,0 +1,122 @@
+/* Conteneur principal du Hero */
+.hero {
+  position: relative;
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Grand nombre en arrière-plan */
+.bgNumber {
+  position: absolute;
+  right: -2rem;
+  top: -3rem;
+  font-family: var(--font-display);
+  font-size: clamp(12rem, 30vw, 22rem);
+  color: rgba(255, 255, 255, 0.025);
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  z-index: 0;
+  letter-spacing: -0.02em;
+}
+
+/* Contenu principal (au-dessus du nombre) */
+.content {
+  position: relative;
+  z-index: 1;
+  animation: fadeUp 0.7s ease both;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Badge "Étudiant Informatique" */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 255, 135, 0.08);
+  border: 1px solid rgba(0, 255, 135, 0.2);
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  padding: 5px 12px;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Point vert clignotant dans le badge */
+.dot {
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+/* Nom complet */
+.name {
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  line-height: 0.88;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+/* "Hoang Anh" en gris */
+.nameLine1 {
+  color: var(--text-secondary);
+}
+
+/* "Harry LAM" */
+.nameLine2 {
+  color: var(--text-primary);
+}
+
+/* "LAM" en vert fluo */
+.nameAccent {
+  color: var(--accent);
+}
+
+/* Sous-titre (optionnel) */
+.sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.description {
+  max-width: 44rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+/* Liens CTA (boutons) */
+.links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Animation d'apparition */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Animation du point clignotant */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}

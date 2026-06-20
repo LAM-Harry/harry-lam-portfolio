@@ -1,0 +1,144 @@
+/* Liste verticale des formations */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Carte de formation avec logo + contenu */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+/* Contenu principal (diplôme + infos) */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+/* Lien cliquable autour du logo */
+.logoLink {
+  flex-shrink: 0;
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  border-radius: var(--radius);
+}
+
+.logoLink:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.logoLink:hover .logoWrapper {
+  border-color: var(--accent);
+}
+
+/* Conteneur du logo */
+.logoWrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  overflow: hidden;
+  padding: 6px;
+  transition: border-color 0.2s ease;
+}
+
+/* Image du logo */
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Colonne gauche (diplôme + école) */
+.left { 
+  flex: 1; 
+}
+
+/* Nom du diplôme */
+.degree {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+/* Sous-titre (spécialité) */
+.subtitle {
+  font-size: 0.65rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Établissement */
+.school {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* Mention obtenue */
+.mention {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 10px;
+  padding: 2px 8px;
+  border: 1px solid rgba(0, 255, 135, 0.2);
+  color: var(--accent);
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+}
+
+/* Colonne droite (années + lieu) */
+.right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Années */
+.years {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+}
+
+/* Lieu */
+.loc {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Responsive mobile */
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .right {
+    text-align: left;
+    width: 100%;
+  }
+}

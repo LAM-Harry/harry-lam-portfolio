@@ -1,0 +1,64 @@
+/* Header - barre de navigation supérieure */
+.header {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Contenu du header (logo + bouton langue) */
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo "HL" */
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+/* Effet au survol du logo */
+.logo:hover {
+  opacity: 0.7;
+}
+
+/* Bouton de changement de langue */
+.langBtn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+  font-family: var(--font-body);
+}
+
+/* Effet au survol du bouton langue */
+.langBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Conteneur principal du footer */
+.footer {
+  padding: 2rem 0;
+}
+
+/* Zone du copyright centrée */
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Texte du copyright */
+.copyright {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+}

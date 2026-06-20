@@ -1,0 +1,48 @@
+/* Grille responsive pour les projets */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+/* Carte projet */
+.card {
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Lien autour de la carte (uniquement pour OLGA) */
+.cardLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.cardLink:hover {
+  transform: translateY(-2px);
+}
+
+.cardLink:hover .card {
+  border-color: var(--accent);
+}
+
+/* Wrapper normal (sans lien) */
+.cardWrapper {
+  display: block;
+}
+
+/* Icône en haut de la carte */
+.top {
+  margin-bottom: 0.75rem;
+  font-size: 20px;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+/* Icône devient verte au survol */
+.card:hover .top {
+  color: var(--accent);
+}

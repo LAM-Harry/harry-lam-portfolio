@@ -1,0 +1,122 @@
+/* Icône dossier */
+.icon {
+  color: var(--accent);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Conteneur principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  overflow: visible;
+}
+
+/* Élément dossier */
+.folderItem {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: visible;
+  background: var(--bg-card);
+  transition: border-color 0.2s;
+}
+
+.folderItem:hover {
+  border-color: var(--border-hover);
+}
+
+/* En-tête du dossier (cliquable) */
+.folderHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  background: var(--bg);
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.folderHeader:hover {
+  background: var(--bg-card-hover);
+}
+
+.folderIcon {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.folderName {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.folderCount {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.folderArrow {
+  font-size: 12px;
+  color: var(--text-muted);
+  transition: transform 0.2s;
+}
+
+/* Contenu du dossier */
+.folderContent {
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-top: 1px solid var(--border);
+  animation: fadeIn 0.25s ease;
+  overflow: visible;
+}
+
+.categoryDesc {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg);
+  border-radius: var(--radius);
+}
+
+/* Grille des cartes projets */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+/* Animation d'ouverture */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .folderHeader {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .folderName {
+    font-size: 14px;
+  }
+
+  .folderContent {
+    padding: 0.8rem;
+  }
+}

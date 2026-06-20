@@ -1,0 +1,143 @@
+/* src/pages/projects/components/Carrousel/ProjectCarousel.module.css */
+
+/* Conteneur principal - permet aux flèches de déborder */
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0 3.5rem 0;
+  min-height: 550px;
+  overflow: visible;
+}
+
+/* Flèches de navigation */
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.arrowButton:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.arrowButton:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+/* Position des flèches - en dehors du conteneur */
+.arrowLeft {
+  left: -100px;
+}
+
+.arrowRight {
+  right: -100px;
+}
+
+/* Wrapper pour la carte */
+.cardWrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+}
+
+/* Pagination (points) */
+.pagination {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 0.6rem;
+  padding: 6px 16px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+/* Point inactif */
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot:hover {
+  background: var(--accent);
+  transform: scale(1.2);
+}
+
+/* Point actif */
+.activeDot {
+  background: rgba(255, 255, 255, 0.6);
+  width: 28px;
+  border-radius: 5px;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .carouselContainer {
+    padding: 1rem 0 3rem 0;
+    min-height: 450px;
+    overflow: visible;
+  }
+
+  .arrowButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .arrowButton svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .arrowLeft {
+    left: -15px;
+  }
+
+  .arrowRight {
+    right: -15px;
+  }
+
+  .cardWrapper {
+    max-width: 100%;
+    padding: 0 2.5rem;
+  }
+
+  .pagination {
+    bottom: 8px;
+    padding: 4px 12px;
+    gap: 0.5rem;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .activeDot {
+    width: 20px;
+  }
+}
