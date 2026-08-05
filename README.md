@@ -1,4 +1,4 @@
-# harry-lam-portfolio
+# Hoang Anh Harry LAM | Portfolio d'études
 
 Portfolio de mes années d'études - Hoang Anh Harry LAM.
 
@@ -13,47 +13,32 @@ npm run dev   # → http://localhost:5173
 
 ## Structure
 
-```
+Le projet est organisé autour de l’application principale, des sections du portfolio et des données partagées.
+
+```text
 src/
-├── App.tsx
-├── main.tsx
+├── App.tsx                         # composition des routes et des sections
+├── main.tsx                        # point d’entrée React/Vite
 ├── i18n/
-│   └── index.ts
+│   └── index.ts                    # configuration i18next
 ├── pages/
-│   ├── index.ts
+│   ├── index.ts                    # exports des sections publiques
 │   ├── ui/
-│   │   └── Section.tsx
+│   │   └── Section.tsx             # composant de section générique
 │   ├── profil/
 │   │   └── sections/
-│   │       ├── Hero/
-│   │       │   ├── Hero.tsx
-│   │       │   └── Hero.module.css
-│   │       ├── StatsBar/
-│   │       │   ├── StatsBar.tsx
-│   │       │   └── StatsBar.module.css
 │   │       ├── Experience/
-│   │       │   ├── Experience.tsx
-│   │       │   └── Experience.module.css
-│   │       ├── Projects/
-│   │       │   ├── Projects.tsx
-│   │       │   └── Projects.module.css
-│   │       ├── Skills/
-│   │       │   ├── Skills.tsx
-│   │       │   └── Skills.module.css
 │   │       ├── Formation/
-│   │       │   ├── Formation.tsx
-│   │       │   └── Formation.module.css
+│   │       ├── Hero/
+│   │       ├── Licenses/
+│   │       ├── LQH/
 │   │       ├── Methodologies/
-│   │       │   ├── Methodologies.tsx
-│   │       │   └── Methodologies.module.css
-│   │       ├── Supports/
-│   │       │   ├── Supports.tsx
-│   │       │   └── Supports.module.css
-│   │       └── LQH/
-│   │           ├── LQH.tsx
-│   │           └── LQH.module.css
+│   │       ├── Projects/
+│   │       ├── Skills/
+│   │       ├── StatsBar/
+│   │       └── Supports/
 │   └── projects/
-│       ├── Projects.tsx
+│       ├── Projects.tsx            # page globale des projets
 │       ├── Projects.module.css
 │       └── components/
 │           ├── Card/
@@ -64,34 +49,39 @@ src/
 │               └── ProjectCarousel.module.css
 └── shared/
     ├── assets/
-    │   ├── logo-formation/      ← logos AIFE, KAIST, IUT, Lycée MD
-    │   └── projects/            ← captures game-of-life, nn-project, olga
+    │   ├── logo/
+    │   │   ├── education/
+    │   │   └── internship/
+    │   └── projects/
+    │       ├── game-of-life/
+    │       ├── nn-project/
+    │       └── olga/
     ├── data/
-    │   ├── cv/
-    │   │   └── cv.data.ts       ← toutes les données du CV (modifier ici)
+    │   ├── cv/cv.data.ts           # contenu principal du CV
     │   └── project/
-    │       └── project.data.ts  ← données des projets
+    │       ├── index.ts
+    │       └── project.data.ts
     ├── docs/
-    │   ├── LAM_CV_FR.pdf
-    │   └── LAM_CV_EN.pdf
+    │   ├── certificate/
+    │   └── cv/
     ├── layout/
     │   ├── MainLayout.tsx
     │   └── MainLayout.module.css
     ├── locales/
     │   └── translation/
-    │       ├── fr.json          ← traductions françaises
-    │       └── en.json          ← traductions anglaises
+    │       ├── fr.json
+    │       └── en.json
     ├── styles/
     │   └── globals.css
     └── types/
-        ├── cv/
-        │   └── cv.type.ts
+        ├── cv/cv.type.ts
         └── project/
+            ├── index.ts
             └── project.type.ts
 ```
 
 ## Traduction
 
-Le site est disponible en **français** et en **anglais** via i18next. La langue est détectée automatiquement depuis le navigateur.
+Le site est disponible en français et en anglais via i18next. La langue est détectée automatiquement selon le navigateur.
 
-Les fichiers de traduction sont dans `src/shared/locales/translation/`.
+Les textes affichés sont centralisés dans les fichiers `src/shared/locales/translation/fr.json` et `src/shared/locales/translation/en.json`, tandis que les données statiques du CV sont dans `src/shared/data/cv/cv.data.ts`.
