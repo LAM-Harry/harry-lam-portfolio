@@ -10,8 +10,8 @@ export function Formation() {
   return (
     <Section number="06" title={t('sections.formation')}>
       <div className={styles.list}>
-        {formations.map((f, index) => {
-          const key = index === 0 ? 'but' : 'bac'
+        {formations.map((f) => {
+          const key = f.key || 'but'
           return (
             <div className={`card ${styles.card}`} key={f.degree}>
               {/* Logo cliquable */}

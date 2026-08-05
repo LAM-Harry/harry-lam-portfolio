@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { skills } from '../../../../shared/data/cv/cv.data'
 import { Section } from '../../../ui/Section'
@@ -8,12 +8,15 @@ import styles from './Skills.module.css'
 export function Skills() {
   const { t } = useTranslation()
   const ref = useRef<HTMLDivElement>(null)
-  const [visible, setVisible] = useState(false)
 
   // Observer pour détecter quand la section est visible
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) setVisible(true) },
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          observer.disconnect()
+        }
+      },
       { threshold: 0.2 }
     )
     if (ref.current) observer.observe(ref.current)

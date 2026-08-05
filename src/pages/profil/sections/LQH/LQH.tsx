@@ -36,8 +36,8 @@ export function LQH() {
 
   const levelMap: Record<string, string> = {
     'Langue maternelle': t('lqh.native'),
-    'B2 — Intermédiaire': t('lqh.levelB2'),
-    'A2+ — Scolaire': t('lqh.levelA2'),
+    'Professionnel': t('lqh.professional'),
+    'A2+ - Scolaire': t('lqh.levelA2'),
   }
 
   // Récupérer les qualités traduites avec fallback

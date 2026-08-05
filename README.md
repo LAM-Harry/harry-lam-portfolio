@@ -1,6 +1,6 @@
 # harry-lam-portfolio
 
-Portfolio de mes années d'études — Hoang Anh Harry LAM.
+Portfolio de mes années d'études - Hoang Anh Harry LAM.
 
 ## Installation
 

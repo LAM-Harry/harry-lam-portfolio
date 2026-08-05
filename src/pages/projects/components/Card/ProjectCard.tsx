@@ -35,7 +35,7 @@ export function ProjectCard({ id, category, tags, images, github, partnerLogo, p
     }
   }
 
-  // Textes traduits — même pattern que Experience/Formation :
+  // Textes traduits - même pattern que Experience/Formation :
   // les données statiques restent dans project.data.ts,
   // les textes sont dans fr.json / en.json sous "projectsDetail.<id>.*"
   const title       = t(`projectsDetail.${id}.title`)

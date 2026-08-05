@@ -1,4 +1,4 @@
-import type { ProjectStatic, Category } from '../../types/project'
+import type { ProjectStatic } from '../../types/project'
 
 // Données statiques des projets (sans textes traduisibles)
 export const projectsData: ProjectStatic[] = [

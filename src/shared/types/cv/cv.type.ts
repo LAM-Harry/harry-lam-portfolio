@@ -33,6 +33,7 @@ export interface Support {
 
 // Interface pour une formation
 export interface Formation {
+  key?: string
   degree: string
   subtitle?: string
   school: string
@@ -46,6 +47,15 @@ export interface Formation {
 // Interface pour une statistique de la barre (value et label traduits via key)
 export interface Stat {
   key: string
+}
+
+// Interface pour une certification ou licence
+export interface Certification {
+  title: string
+  score: string
+  issued: string
+  expires: string
+  pdf?: string
 }
 
 // Interface pour une langue

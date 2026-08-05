@@ -19,7 +19,7 @@ export function Projects() {
   // Identifiant de la catégorie actuellement ouverte (null = tout fermé)
   const [openCategory, setOpenCategory] = useState<string | null>(null)
 
-  // Ouvre/ferme un dossier — un seul à la fois
+  // Ouvre/ferme un dossier - un seul à la fois
   const toggleCategory = (id: string) => {
     setOpenCategory(openCategory === id ? null : id)
   }

@@ -5,7 +5,7 @@
   border-bottom: 1px solid var(--border);
 }
 
-/* Élément de statistique — le border-right est sur la colonne entière */
+/* Élément de statistique - le border-right est sur la colonne entière */
 .item {
   padding: 1.25rem 1.5rem;
   border-right: 1px solid var(--border);

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './shared/styles/globals.css'
 import { MainLayout } from './shared/layout/MainLayout'
-import { Hero, StatsBar, Experience, Projects, Skills, Methodologies, Supports, Formation, LQH } from './pages'
+import { Hero, StatsBar, Experience, Projects, Skills, Methodologies, Supports, Formation, Licenses, LQH } from './pages'
 import { Projects as ProjectsPage } from './pages/projects/Projects' 
 
 // Composant principal de l'application
@@ -20,6 +20,7 @@ export default function App() {
             <Methodologies /> {/* Méthodes de gestion de projet (Scrum, Kanban) */}
             <Supports />      {/* Supports informatiques (IDE, BDD, etc.) */}
             <Formation />     {/* Formations */}
+            <Licenses />      {/* Licences et certifications */}
             <LQH />           {/* Langues, Qualités & Centres d'intérêt */}
           </MainLayout>
         } />

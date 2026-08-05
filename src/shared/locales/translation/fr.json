@@ -3,7 +3,7 @@
     "badge": "Étudiant Informatique",
     "name": "Hoang Anh",
     "surname": "Harry LAM",
-    "description": "Je termine bientôt mon BUT Informatique à l'IUT de Créteil-Vitry (Université Paris-Est Créteil). Motivé et curieux, je conçois des projets techniques et je cherche à progresser dans le domaine de l'IA.",
+    "description": "Futur étudiant en Master of Science (M.Sc.) à l'ESILV (École supérieure d'Ingénieurs Léonard-de-Vinci) | Spécialisation en Computer Science & Data Science.",
     "contact": "Me contacter",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -11,12 +11,13 @@
     "viewProjects": "Voir mes projets"
   },
   "sections": {
-    "experience": "Expérience",
+    "experience": "Expériences professionnelles",
     "projects": "Projets académiques",
     "skills": "Stack technique",
     "methodologies": "Méthodes de gestion de projet",
     "supports": "Supports informatiques",
     "formation": "Formation",
+    "certifications": "Rapport de score",
     "lqh": "Langues, Qualités & Centres d'intérêt",
     "allProjects": "Tous mes projets"
   },
@@ -26,8 +27,8 @@
       "label": "Stages effectués"
     },
     "formation": {
-      "value": "BAC+3",
-      "label": "Formation"
+      "value": "BAC+5",
+      "label": "Formation en cours"
     },
     "technologies": {
       "value": "28",
@@ -35,19 +36,19 @@
     }
   },
   "dates": {
-    "aife": "Mars — Juin 2026",
-    "kaist": "Avril — Juin 2025",
-    "medical": "Sept 2025 — Juin 2026",
-    "weather": "Sept 2024 — Avril 2025"
+    "aife": "Mars - Juin 2026",
+    "kaist": "Avril - Juin 2025",
+    "medical": "Sept 2025 - Juin 2026",
+    "weather": "Sept 2024 - Avril 2025"
   },
   "experience": {
     "aife": {
-      "title": "Stagiaire Développeur Fullstack — Industrialisation du Design System",
+      "title": "Stagiaire Développeur Full Stack - Industrialisation du Design System",
       "org": "AIFE · Agence pour l'Informatique Financière de l'État · Ministère des Comptes Publics",
-      "description": "Développement et industrialisation d'une librairie de composants Angular/TypeScript pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement fullstack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
+      "description": "Développement et industrialisation d'une librairie de composants Angular/TypeScript pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement Full Stack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
     },
     "kaist": {
-      "title": "Stagiaire Développeur — Interface exosquelette",
+      "title": "Stagiaire Data Scientist - R&D en Deep Learning - Interface exosquelette",
       "org": "KAIST · Korea Advanced Institute of Science & Technology · Corée du Sud",
       "description": "Conception d'une interface graphique développée avec la bibliothèque PyQt5 pour visualiser en temps réel les données physiologiques (pMMG, EMG, IMU) dans le cadre du contrôle d'un exosquelette. Développement d'un pipeline de deep learning avec TensorFlow/Keras (RNN, GRU, LSTM, Transformer) pour des tâches de classification et de régression."
     }
@@ -55,7 +56,7 @@
   "projects": {
     "medical": {
       "title": "Plateforme no-code médicale",
-      "org": "Projet académique — DevOps",
+      "org": "Projet académique - DevOps",
       "description": "Plateforme web no-code médicale en React (TypeScript) et Java (Gradle) pour workflows médicaux avec formulaires dynamiques. Sécurité Firebase et déploiement avec Node.js (npm)."
     },
     "weather": {
@@ -68,7 +69,7 @@
     "Langages": "Langages",
     "Frameworks": "Frameworks",
     "Bases de données": "Bases de données",
-    "IA & Deep/Machine Learning": "IA & Deep/Machine Learning",
+    "IA & Deep Learning": "IA & Deep Learning",
     "DevOps & Infrastructure": "DevOps & Infrastructure",
     "Systèmes & Réseaux": "Systèmes & Réseaux"
   },
@@ -83,11 +84,21 @@
   },
   "supports": {
     "ide": "IDE",
-    "databases": "Bases de données",
-    "virtualization": "Machines virtuelles & Conteneurs",
+    "databases": "Gestion de bases de données",
+    "virtualization": "Machines virtuelles, Conteneurs & Cloud",
     "versioning": "Gestion de version"
   },
+  "licenses": {
+    "badge": "Rapport de score",
+    "button": "Voir en détail"
+  },
   "formation": {
+     "master": {
+      "degree": "Master of Science (M.Sc.)",
+      "subtitle": "Computer Science & Data Science",
+      "school": "ESILV - École supérieure d'Ingénieurs Léonard-de-Vinci",
+      "mention": ""
+    },
     "but": {
       "degree": "BUT Informatique",
       "subtitle": "Réalisation d'applications : conception, développement, validation",
@@ -96,12 +107,13 @@
     },
     "bac": {
       "degree": "Baccalauréat Série Général",
-      "subtitle": "Maths / NSI",
+      "subtitle": "Mathématiques / Numérique et Sciences Informatiques (NSI)",
       "school": "Lycée français international Marguerite Duras",
       "mention": "Mention Assez Bien"
     }
   },
   "locations": {
+    "master": "Nanterre, France",
     "but": "Vitry-sur-Seine, 94",
     "bac": "Hô Chi Minh-Ville, Vietnam"
   },
@@ -114,8 +126,8 @@
     "english": "Anglais",
     "spanish": "Espagnol",
     "native": "Langue maternelle",
-    "levelB2": "B2 — Intermédiaire",
-    "levelA2": "A2+ — Scolaire",
+    "professional": "Niveau Professionnel",
+    "levelA2": "A2+ - NiveauScolaire",
     "qualitiesList": [
       "Travail en équipe",
       "Assidu",
@@ -147,7 +159,7 @@
   "projectsDetail": {
     "game-of-life": {
       "title": "Jeu de la Vie - Simulation multithread",
-      "org": "Projet académique — Programmation avancée",
+      "org": "Projet académique - Programmation avancée",
       "date": "Décembre 2025",
       "description": "Simulation interactive du Jeu de la Vie de Conway avec interface graphique moderne et calculs parallélisés via multi-threading.",
       "longDescription": "Automate cellulaire imaginé par John Conway en 1970. Chaque cellule possède son propre thread pour des calculs parallèles, synchronisés via une barrière (threading.Barrier). La grille est configurable de 5×5 à 80×80 cellules (jusqu'à 6 400 threads simultanés), avec un rafraîchissement à 30 FPS et une vitesse de simulation de 1 à 30 générations/seconde.",
@@ -173,8 +185,8 @@
     "exoskeleton-deep-learning-interface": {
       "title": "Interface Deep Learning pour Exosquelette",
       "org": "KAIST · Korea Advanced Institute of Science & Technology",
-      "date": "Avril — Juin 2025",
-      "description": "Conception d'une interface graphique fullstack pour la conception, l'entraînement et l'évaluation de modèles de Deep Learning appliqués à l'analyse de mouvements humains pour le contrôle d'exosquelettes.",
+      "date": "Avril - Juin 2025",
+      "description": "Conception d'une interface graphique Full Stack pour la conception, l'entraînement et l'évaluation de modèles de Deep Learning appliqués à l'analyse de mouvements humains pour le contrôle d'exosquelettes.",
       "longDescription": "Dans le cadre de mon stage au laboratoire Exo Lab du KAIST (Corée du Sud), j'ai développé une application Python permettant de créer et d'entraîner des réseaux de neurones pour l'analyse de données biomécaniques (EMG, IMU) utilisées dans le contrôle d'exosquelettes. L'outil propose un pipeline complet : génération du dataset, configuration des modèles (LSTM, GRU, RNN, Transformer), entraînement avec suivi en temps réel, évaluation des performances et comparaison des modèles entraînés. Projet réalisé en collaboration avec Thanh Uyen NGUYEN",
       "features": [
         "Construction dynamique de modèles : LSTM, GRU, RNN, Transformer et TinyTransformer",
@@ -187,7 +199,7 @@
         "Prétraitement des signaux EMG/IMU, fenêtrage glissant (sliding windows), normalisation"
       ],
       "techDetails": [
-        "Architecture fullstack Python : Backend TensorFlow/Keras, Frontend PyQt5",
+        "Architecture Full Stack Python : Backend TensorFlow/Keras, Frontend PyQt5",
         "Gestion asynchrone avec QThread et callbacks personnalisés",
         "Construction dynamique de modèles avec build_flexible_model",
         "Pipeline de données : Chargement de fichiers HDF5, filtrage des signaux EMG, génération automatique de labels",
@@ -198,8 +210,8 @@
     },
     "olga-workflow-platform": {
       "title": "OLGA · Plateforme de workflow no-code",
-      "org": "Projet académique — DevOps & Architecture",
-      "date": "Sept 2025 — Juin 2026",
+      "org": "Projet académique - DevOps & Architecture",
+      "date": "Sept 2025 - Juin 2026",
       "description": "Plateforme no-code de gestion de workflows orchestrée par un moteur Spring Boot/Java, avec trois frontends React (Designer, Admin, Métier) et une architecture hybride MySQL/Firebase. Génération dynamique de formulaires avec validation Zod.",
       "longDescription": "Dans le cadre d'un projet académique en fin d'étude du BUT Informatique, j'ai contribué au développement d'OLGA, une plateforme no-code de gestion de workflows. Architecture : moteur Spring Boot/Java, frontends React/TypeScript (Designer, Admin, Métier), persistance hybride MySQL/Firebase, formulaires dynamiques avec validation Zod. Conteneurisation Docker, déploiement en une commande. Projet réalisé en collaboration avec le LISSI et testé sur des scénarios médicaux, logistiques et de gestion de terrain.",
       "features": [
