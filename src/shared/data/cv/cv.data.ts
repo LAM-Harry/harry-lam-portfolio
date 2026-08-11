@@ -64,14 +64,15 @@ export const skills: Skill[] = [
   // Langages
   { name: 'Java', category: 'Langages' },
   { name: 'Python', category: 'Langages' },
-  { name: 'langageC', category: 'Langages' },  // ← Clé pour traduction
-  { name: 'JavaScript / TypeScript', category: 'Langages' },
-  { name: 'HTML / CSS / PHP', category: 'Langages' },
+  { name: 'langages C/C#', category: 'Langages' },  
+  { name: 'JavaScript/TypeScript', category: 'Langages' },
+  { name: 'PHP', category: 'Langages' },
+  { name: 'HTML', category: 'Langages' },
+  { name: 'CSS/SCSS', category: 'Langages' },
   // Frameworks
   { name: 'React', category: 'Frameworks' },
   { name: 'Angular', category: 'Frameworks' },
-  { name: 'Node.js', category: 'Frameworks' },
-  { name: 'Express.js', category: 'Frameworks' },
+  { name: 'Node.js/Express.js', category: 'Frameworks' },
   { name: 'Spring Boot', category: 'Frameworks' },
   { name: 'Flask', category: 'Frameworks' },
   { name: 'PyQt5', category: 'Frameworks' },
