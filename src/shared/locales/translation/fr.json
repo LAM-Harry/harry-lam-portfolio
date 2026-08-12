@@ -45,7 +45,7 @@
     "aife": {
       "title": "Stagiaire Développeur Full Stack - Industrialisation du Design System",
       "org": "AIFE · Agence pour l'Informatique Financière de l'État · Ministère des Comptes Publics",
-      "description": "Développement et industrialisation d'une librairie de composants Angular/TypeScript pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement Full Stack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
+      "description": "Développement et industrialisation d'une librairie de composants Angular pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement Full Stack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
     },
     "kaist": {
       "title": "Stagiaire Data Scientist - R&D en Deep Learning - Interface exosquelette",
@@ -57,7 +57,7 @@
     "medical": {
       "title": "Plateforme no-code médicale",
       "org": "Projet académique - DevOps",
-      "description": "Plateforme web no-code médicale en React (TypeScript) et Java (Gradle) pour workflows médicaux avec formulaires dynamiques. Sécurité Firebase et déploiement avec Node.js (npm)."
+      "description": "Plateforme web no-code médicale en React (TypeScript) et Spring Boot pour workflows médicaux avec formulaires dynamiques. Sécurité Firebase et déploiement avec Docker/Nginx."
     },
     "weather": {
       "title": "Application météo interactive",
@@ -212,8 +212,8 @@
       "title": "OLGA · Plateforme de workflow no-code",
       "org": "Projet académique - DevOps & Architecture",
       "date": "Sept 2025 - Juin 2026",
-      "description": "Plateforme no-code de gestion de workflows orchestrée par un moteur Spring Boot/Java, avec trois frontends React (Designer, Admin, Métier) et une architecture hybride MySQL/Firebase. Génération dynamique de formulaires avec validation Zod.",
-      "longDescription": "Dans le cadre d'un projet académique en fin d'étude du BUT Informatique, j'ai contribué au développement d'OLGA, une plateforme no-code de gestion de workflows. Architecture : moteur Spring Boot/Java, frontends React/TypeScript (Designer, Admin, Métier), persistance hybride MySQL/Firebase, formulaires dynamiques avec validation Zod. Conteneurisation Docker, déploiement en une commande. Projet réalisé en collaboration avec le LISSI et testé sur des scénarios médicaux, logistiques et de gestion de terrain.",
+      "description": "Plateforme no-code de gestion de workflows orchestrée par un moteur Spring Boot, avec trois frontends React (Designer, Admin, Métier), une architecture hybride MySQL/Firebase, une authentification sécurisée et un contrôle d'accès par rôles et permissions. Génération dynamique de formulaires avec validation Zod.",
+      "longDescription": "Dans le cadre d'un projet académique en fin d'étude du BUT Informatique, j'ai contribué au développement d'OLGA, une plateforme no-code de gestion de workflows. Architecture : moteur Spring Boot, frontends React/TypeScript (Designer, Admin, Métier), persistance hybride MySQL/Firebase, formulaires dynamiques avec validation Zod. Conteneurisation Docker, déploiement en une commande. Projet réalisé en collaboration avec le LISSI et testé sur des scénarios médicaux, logistiques et de gestion de terrain.",
       "features": [
         "Conception no-code de workflows via interface visuelle (Designer)",
         "Génération dynamique de formulaires avec validation Zod",

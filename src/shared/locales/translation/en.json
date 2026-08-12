@@ -45,7 +45,7 @@
     "aife": {
       "title": "Full Stack Developer Intern - Design System Industrialization",
       "org": "AIFE · French Government Financial Information Systems Agency",
-      "description": "Development and industrialization of an Angular/TypeScript component library for the French government with RGAA compliance. Implementation of a Figma plugin for token export and management. Full Stack contribution to the ASTRA project and POCs to validate component adaptability."
+      "description": "Development and industrialization of an Angular component library for the French government with RGAA compliance. Implementation of a Figma plugin for token export and management. Full Stack contribution to the ASTRA project and POCs to validate component adaptability."
     },
     "kaist": {
       "title": "Data Scientist Intern - R&D in Deep Learning - Exoskeleton Interface",
@@ -57,7 +57,7 @@
     "medical": {
       "title": "No-code Medical Platform",
       "org": "Academic Project - DevOps",
-      "description": "No-code medical web platform with React (TypeScript) and Java (Gradle) for dynamic medical workflows. Firebase security and deployment with Node.js."
+      "description": "No-code medical web platform with React (TypeScript) and Spring Boot for medical workflows with dynamic forms. Firebase authentication and Docker/Nginx deployment."
     },
     "weather": {
       "title": "Interactive Weather App",
@@ -212,15 +212,15 @@
       "title": "OLGA · No-code Workflow Platform",
       "org": "Academic Project - DevOps & Architecture",
       "date": "Sep 2025 - June 2026",
-      "description": "No-code workflow management platform orchestrated by a Spring Boot/Java engine, with three React frontends (Designer, Admin, Business) and a hybrid MySQL/Firebase architecture. Dynamic form generation with Zod validation.",
-      "longDescription": "As part of an end-of-degree academic project in the BUT Computer Science program, I contributed to the development of OLGA, a no-code workflow management platform. Architecture: Spring Boot/Java engine, React/TypeScript frontends (Designer, Admin, Business), hybrid MySQL/Firebase persistence, dynamic forms with Zod validation. Docker containerization, one-command deployment. Project carried out in collaboration with LISSI and tested on medical, logistics, and field management scenarios.",
+      "description": "No-code workflow management platform orchestrated by a Spring Boot engine, with three React frontends (Designer, Admin, Operator), a hybrid MySQL/Firebase architecture, secure authentication, and role-based access control. Dynamic form generation with Zod validation.",
+      "longDescription": "As part of an end-of-degree academic project in the Bachelor's Computer Science program, I contributed to the development of OLGA, a no-code workflow management platform. Architecture: Spring Boot engine, React/TypeScript frontends (Designer, Admin, Operator), hybrid MySQL/Firebase persistence, dynamic forms with Zod validation. Docker containerization, one-command deployment. Project carried out in collaboration with LISSI and tested on medical, logistics, and field management scenarios.",
       "features": [
         "No-code workflow design via visual interface (Designer)",
         "Dynamic form generation with Zod validation",
         "Multi-step process orchestration with conditional transitions",
         "Hybrid MySQL/Firebase architecture: structured persistence + real-time",
         "Docker containerization with Docker Compose (5 services)",
-        "Three React frontends: Designer (8080), Admin (8081), Business",
+        "Three React frontends: Designer (8080), Admin (8081), Operator",
         "Push notifications and real-time synchronization via Firebase",
         "One-command deployment: docker compose up -d --build"
       ],
