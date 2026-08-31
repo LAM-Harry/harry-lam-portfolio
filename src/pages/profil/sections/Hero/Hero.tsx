@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { meta } from '../../../../shared/data/cv/cv.data'
-import cvFR from '../../../../shared/docs/cv/LAM_CV_FR.pdf'
-import cvEN from '../../../../shared/docs/cv/LAM_CV_EN.pdf'
+import cvFR from '../../../../shared/docs/cv/CV_LAM_FR.pdf'
+import cvEN from '../../../../shared/docs/cv/CV_LAM_EN.pdf'
 import styles from './Hero.module.css'
 
 // Section Hero (bannière principale)

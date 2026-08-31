@@ -24,7 +24,7 @@ export const experiences: Experience[] = [
     org: 'AIFE · Agence pour l\'Informatique Financière de l\'État · Ministère des Comptes Publics',
     date: 'Mars - Juin 2026',
     description: 'Développement et industrialisation d\'une librairie de composants Angular pour l\'État dans le respect du RGAA (Référentiel Général d\'Amélioration de l\'Accessibilité). Mise en place d\'un plugin Figma pour l\'export et la gestion des tokens de design. Contribution au développement Full Stack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l\'adaptabilité des composants dans des contextes applicatifs variés.',
-    tags: ['Angular', 'JavaScript', 'Express.js', 'PostgreSQL', 'Figma', 'RGAA'],
+    tags: ['Angular', 'JavaScript', 'Express.js', 'PostgreSQL', 'REST APIs'],
     hot: true,
     logo: '/src/shared/assets/logo/internship/logo-aife.png',
     url: 'https://aife.economie.gouv.fr/',

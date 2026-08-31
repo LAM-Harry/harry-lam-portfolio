@@ -45,12 +45,12 @@
     "aife": {
       "title": "Full Stack Developer Intern - Design System Industrialization",
       "org": "AIFE · French Government Financial Information Systems Agency",
-      "description": "Development and industrialization of an Angular component library for the French government with RGAA compliance. Implementation of a Figma plugin for token export and management. Full Stack contribution to the ASTRA project and POCs to validate component adaptability."
+      "description": "Development and industrialization of an Angular component library for the French government with RGAA (French General Reference for Accessibility Improvement) compliance. Implementation of a Figma plugin for token export and management. Full Stack contribution to the ASTRA (Automated Regulatory Texts Assistant) project and POCs (Proofs of Concept) to validate component adaptability."
     },
     "kaist": {
       "title": "Data Scientist Intern - R&D in Deep Learning - Exoskeleton Interface",
       "org": "KAIST · Korea Advanced Institute of Science & Technology · South Korea",
-      "description": "Design of a graphical interface with PyQt5 for real-time visualization of physiological data (pMMG, EMG, IMU). Development of a deep learning pipeline with TensorFlow/Keras (RNN, GRU, LSTM, Transformer)."
+      "description": "Design of a PyQt5 graphical interface for real-time visualization of deep learning model training from physiological data (pMMG, EMG, IMU), supporting experimentation for exoskeleton control. Development of a TensorFlow/Keras deep learning pipeline for classification and regression, exploring RNN, GRU, LSTM and Transformer architectures to compare model performance and identify the most suitable architectures."
     }
   },
   "projects": {

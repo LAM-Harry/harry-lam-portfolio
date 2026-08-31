@@ -45,12 +45,12 @@
     "aife": {
       "title": "Stagiaire Développeur Full Stack - Industrialisation du Design System",
       "org": "AIFE · Agence pour l'Informatique Financière de l'État · Ministère des Comptes Publics",
-      "description": "Développement et industrialisation d'une librairie de composants Angular pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement Full Stack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
+      "description": "Développement et industrialisation d'une librairie de composants Angular pour l'État dans le respect du RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Mise en place d'un plugin Figma pour l'export et la gestion des tokens de design. Contribution au développement Full Stack du projet ASTRA (Assistant Textes Réglementaires Automatisés) et réalisation de POCs (Preuves de concept) sur des sites liés aux marchés publics et à la commande publique pour valider l'adaptabilité des composants dans des contextes applicatifs variés."
     },
     "kaist": {
       "title": "Stagiaire Data Scientist - R&D en Deep Learning - Interface exosquelette",
       "org": "KAIST · Korea Advanced Institute of Science & Technology · Corée du Sud",
-      "description": "Conception d'une interface graphique développée avec la bibliothèque PyQt5 pour visualiser en temps réel les données physiologiques (pMMG, EMG, IMU) dans le cadre du contrôle d'un exosquelette. Développement d'un pipeline de deep learning avec TensorFlow/Keras (RNN, GRU, LSTM, Transformer) pour des tâches de classification et de régression."
+      "description": "Conception d'une interface graphique avec PyQt5 pour la visualisation en temps réel de l'entraînement de modèles de deep learning à partir de données physiologiques (pMMG, EMG, IMU), soutenant les expérimentations liées au contrôle d'un exosquelette. Développement d'un pipeline de deep learning avec TensorFlow/Keras pour la classification et la régression, explorant les architectures RNN, GRU, LSTM et Transformer afin de comparer les performances des modèles et d'identifier les architectures les plus adaptées."
     }
   },
   "projects": {
