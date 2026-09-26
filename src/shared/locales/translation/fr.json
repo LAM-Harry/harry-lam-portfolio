@@ -3,7 +3,7 @@
     "badge": "Étudiant Informatique",
     "name": "Hoang Anh",
     "surname": "Harry LAM",
-    "description": "Futur étudiant en Master of Science (M.Sc.) à l'ESILV (École supérieure d'Ingénieurs Léonard-de-Vinci) | Spécialisation en Computer Science & Data Science.",
+    "description": "Apprenti Data Analyst chez Qlower | Etudiant en MSc (Master of Science) Data Engineering & Artificial Intelligence à l’ESILV (École supérieure d'Ingénieurs Léonard-de-Vinci)",
     "contact": "Me contacter",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -17,7 +17,7 @@
     "methodologies": "Méthodes de gestion de projet",
     "supports": "Supports informatiques",
     "formation": "Formation",
-    "certifications": "Rapport de score",
+    "certifications": "Licences & Certifications",
     "lqh": "Langues, Qualités & Centres d'intérêt",
     "allProjects": "Tous mes projets"
   },
@@ -89,13 +89,16 @@
     "versioning": "Gestion de version"
   },
   "licenses": {
-    "badge": "Rapport de score",
-    "button": "Voir en détail"
+    "badge": "Certification",
+    "button": "Voir en détail",
+    "issued": "Émis en {{date}}",
+    "expires": "Expire en {{date}}",
+    "credentialId": "Identifiant du diplôme : {{id}}"
   },
   "formation": {
      "master": {
-      "degree": "Master of Science (M.Sc.)",
-      "subtitle": "Computer Science & Data Science",
+      "degree": "Master of Science (MSc)",
+      "subtitle": "Data Engineering & Artificial Intelligence",
       "school": "ESILV - École supérieure d'Ingénieurs Léonard-de-Vinci",
       "mention": ""
     },

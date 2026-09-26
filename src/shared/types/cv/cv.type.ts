@@ -53,8 +53,11 @@ export interface Stat {
 export interface Certification {
   title: string
   score: string
+  provider: string
   issued: string
   expires: string
+  credentialId: string
+  logo?: string
   pdf?: string
 }
 

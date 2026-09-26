@@ -126,8 +126,8 @@ export const supports: Support[] = [
 export const formations: Formation[] = [
   {
     key: 'master',
-    degree: 'Masyer of Science (MSc)',
-    subtitle: 'Computer Science & Data Science',
+    degree: 'Master of Science (MSc)',
+    subtitle: 'Data Engineering & Artificial Intelligence',
     school: 'ESILV · École supérieure d\'ingénieurs Léonard-de-Vinci',
     years: '2026 - 2028',
     location: 'Nanterre, France',
@@ -162,8 +162,11 @@ export const certifications: Certification[] = [
   {
     title: 'TOEIC Listening & Reading',
     score: 'Score : 750/990',
-    issued: 'Émise le juin 2026',
-    expires: 'Expire le juin 2028',
+    provider: 'TOEIC Program',
+    issued: '2026-06',
+    expires: '2028-06',
+    credentialId: '69728612',
+    logo: '/src/shared/assets/logo/certificate/logo-toeic.svg',
     pdf: '/src/shared/docs/certificate/certificate_20260609181646.pdf',
   },
 ]
