@@ -93,7 +93,7 @@
     "button": "Voir en détail",
     "issued": "Émis en {{date}}",
     "expires": "Expire en {{date}}",
-    "credentialId": "Identifiant du diplôme : {{id}}"
+    "credentialId": "Identifiant du certificat : {{id}}"
   },
   "formation": {
      "master": {
