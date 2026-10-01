@@ -3,7 +3,7 @@
     "badge": "Étudiant Informatique",
     "name": "Hoang Anh",
     "surname": "Harry LAM",
-    "description": "Apprenti Data Analyst chez Qlower | Etudiant en MSc (Master of Science) Data Engineering & Artificial Intelligence à l’ESILV (École supérieure d'Ingénieurs Léonard-de-Vinci)",
+    "description": "Apprenti Data Analyst chez Qlower | Etudiant en MSc (Master of Science) Data Engineering & Artificial Intelligence à l’ESILV (École Supérieure d'Ingénieurs Léonard-de-Vinci)",
     "contact": "Me contacter",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -99,7 +99,7 @@
      "master": {
       "degree": "Master of Science (MSc)",
       "subtitle": "Data Engineering & Artificial Intelligence",
-      "school": "ESILV - École supérieure d'Ingénieurs Léonard-de-Vinci",
+      "school": "ESILV - École Supérieure d'Ingénieurs Léonard-de-Vinci",
       "mention": ""
     },
     "but": {
@@ -116,7 +116,7 @@
     }
   },
   "locations": {
-    "master": "Nanterre, France",
+    "master": "Paris La Défense, France",
     "but": "Vitry-sur-Seine, 94",
     "bac": "Hô Chi Minh-Ville, Vietnam"
   },

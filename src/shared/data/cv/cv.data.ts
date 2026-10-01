@@ -130,7 +130,7 @@ export const formations: Formation[] = [
     subtitle: 'Data Engineering & Artificial Intelligence',
     school: 'ESILV · École supérieure d\'ingénieurs Léonard-de-Vinci',
     years: '2026 - 2028',
-    location: 'Nanterre, France',
+    location: 'Paris La Défense, France',
     logo: '/src/shared/assets/logo/education/logo-esilv.png',
     url: 'https://www.esilv.fr/formations/msc-computer-science-data-science/',
   },
