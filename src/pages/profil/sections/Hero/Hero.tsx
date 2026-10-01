@@ -54,7 +54,14 @@ export function Hero() {
             {t('hero.github')}
           </a>
           {/* Lien Linkedin */}
-          <a className="btn" href={meta.linkedin} target="_blank" rel="noreferrer">
+          <a
+            className="btn"
+            href={currentLang === 'en'
+              ? 'https://www.linkedin.com/in/hoang-anh-harry-lam-9646182a3/?locale=en-US'
+              : 'https://www.linkedin.com/in/hoang-anh-harry-lam-9646182a3/?locale=fr-FR'}
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="ti ti-brand-linkedin" aria-hidden="true" />
             {t('hero.linkedin')}
           </a>

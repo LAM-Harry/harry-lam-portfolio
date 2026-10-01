@@ -3,7 +3,6 @@ import type { Certification, Experience, Formation, Language, Project, Skill, St
 // Infos personnelles
 export const meta = {
   available: 'Étudiant Informatique',
-  about: 'Je termine bientôt mon BUT Informatique à l’IUT de Créteil-Vitry (Université Paris-Est Créteil). Motivé et curieux, je conçois des projets techniques et je cherche à progresser dans le domaine de l’IA.',
   email: 'harrylam317@gmail.com',
   github: 'https://github.com/LAM-Harry',
   linkedin: 'https://www.linkedin.com/in/hoang-anh-harry-lam-9646182a3/',
