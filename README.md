@@ -19,6 +19,7 @@ Le projet est organisé autour de l’application principale, des sections du po
 src/
 ├── App.tsx                         # composition des routes et des sections
 ├── main.tsx                        # point d’entrée React/Vite
+├── vite-env.d.ts                   # types Vite et imports de fichiers
 ├── i18n/
 │   └── index.ts                    # configuration i18next
 ├── pages/
@@ -50,6 +51,7 @@ src/
 └── shared/
     ├── assets/
     │   ├── logo/
+    │   │   ├── certificate/
     │   │   ├── education/
     │   │   └── internship/
     │   └── projects/
@@ -69,8 +71,8 @@ src/
     │   └── MainLayout.module.css
     ├── locales/
     │   └── translation/
-    │       ├── fr.json
-    │       └── en.json
+    │       ├── en.json
+    │       └── fr.json
     ├── styles/
     │   └── globals.css
     └── types/
